@@ -3,6 +3,8 @@ package main
 import (
 	"log"
 	"net/http"
+
+	"github.com/takahashi-pao/prac_20230606/handlers"
 )
 
 func main() {

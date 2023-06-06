@@ -6,7 +6,7 @@ import (
 )
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
-	tmpl, err := template.ParseFiles("template/base.html", "template/home.html")
+	tmpl, err := template.ParseFiles("./template/base.html", "./template/home.html")
 	if err != nil {
 		http.Error(w, "読み込みに失敗しました。", http.StatusInternalServerError)
 		return
