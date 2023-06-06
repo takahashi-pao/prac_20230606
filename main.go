@@ -3,8 +3,6 @@ package main
 import (
 	"log"
 	"net/http"
-
-	"./handlers"
 )
 
 func main() {
